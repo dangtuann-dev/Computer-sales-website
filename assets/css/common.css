@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Poppins;
+}
+/* Common */
+.main-content {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* HEADER */
+
+/* FOOTER */

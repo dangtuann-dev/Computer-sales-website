@@ -2,6 +2,7 @@
   box-sizing: border-box;
   vertical-align: bottom;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -10,16 +11,73 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
 body {
   font-size: 1.6rem;
   font-family: Poppins;
 }
+
 /* Common */
 .main-content {
   width: 1170px;
   margin-right: auto;
   margin-left: auto;
 }
+
 /* HEADER */
+body {
+    border-bottom: 1px solid gray;
+}
+
+header .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 20px;
+}
+
+.main-content .home-start {
+  width: 118px;
+  height: 24px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  object-fit: cover;
+}
+
+header .main-content {
+    margin-top: 15px;
+    position: relative;
+}
+
+.list-header {
+  left: 250px;
+  position: absolute;
+}
+
+.list-header li {
+  display: inline-block;
+}
+
+.list-header li:not(li:first-child) {
+  margin-left: 20px;
+}
+
+.list-header li:hover {
+  border-bottom: 1px solid gray;
+}
+
+.header-search {
+  height: 30px;
+  padding: 5px;
+  margin-right: 150px;
+}
+
+.header-search {
+  background-color: rgb(243, 234, 234);
+  border: none;
+  width: 200px;
+}
 
 /* FOOTER */

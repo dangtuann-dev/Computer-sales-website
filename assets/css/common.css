@@ -26,9 +26,8 @@ body {
 
 /* HEADER */
 header {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-
 header .main-content {
   display: flex;
   align-items: center;
@@ -49,7 +48,6 @@ header .main-content {
   top: 20px;
 }
 
-
 .list-header .sub-header {
   width: 66px;
   height: 24px;
@@ -57,6 +55,17 @@ header .main-content {
   text-decoration: none;
   text-align: center;
   display: block;
+  object-fit: cover;
+}
+
+header .main-content {
+  margin-top: 15px;
+  position: relative;
+}
+
+.list-header {
+  left: 250px;
+  position: absolute;
 }
 
 .list-header li {
@@ -85,7 +94,6 @@ header .main-content {
   padding: 5px;
   margin-right: 50px;
 }
-
 
 .search-store {
   position: relative;

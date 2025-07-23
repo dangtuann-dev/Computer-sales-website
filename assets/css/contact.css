@@ -1,0 +1,238 @@
+.main-content.box-conten {
+    display: flex;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 0;
+}
+
+
+.call-wirte {
+    position: relative;
+    width: 340px;
+    height: 457px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.box-phone {
+    position: relative;
+    top: 40px;
+    left: 35px;
+    width: 262px;
+    height: 122px;
+    margin-bottom: 32px;
+}
+
+.box-phone::after {
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+
+.icon-phone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #DB4444;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-phone {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: white;
+}
+
+.call-to-us {
+    display: inline-block;
+    position: absolute;
+    width: 79px;
+    height: 24px;
+    left: 56px;
+    top: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.time-online {
+    position: absolute;
+    top: 64px;
+    width: 262px;
+    height: 21px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.number-phone {
+    position: absolute;
+    top: 101px;
+    width: 150px;
+    height: 21px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.box-mail {
+    width: 262px;
+    height: 180px;
+    margin-top: 62px;
+    position: absolute;
+    left: 35px;
+}
+
+.icon-mail {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #DB4444;
+    border-radius: 50%;
+}
+
+.fa-regular.fa-envelope {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: white;
+}
+
+.write-to-us {
+    display: inline-block;
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 56px;
+    top: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.check-mail {
+    position: absolute;
+    top: 64px;
+    width: 262px;
+    height: 42px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.mail-customer {
+    position: absolute;
+    top: 120px;
+    width: 232px;
+    height: 21px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.mail-support {
+    position: absolute;
+    top: 155px;
+    width: 232px;
+    height: 21px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.your-info {
+    position: relative;
+    width: 800px;
+    height: 457px;
+    margin-left: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.div-your-info {
+    position: absolute;
+    top: 40px;
+    left: 31px;
+    width: 737px;
+    height: 377px;
+}
+
+.your-name {
+    width: 235px;
+    height: 50px;
+    padding-left: 16px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.your-mail {
+    position: absolute;
+    top: 0;
+    left: 251px;
+    width: 235px;
+    height: 50px;
+    padding-left: 16px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.your-phone {
+    position: absolute;
+    top: 0;
+    left: 502px;
+    width: 235px;
+    height: 50px;
+    padding-left: 16px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.your-massage {
+    position: absolute;
+    top: 82px;
+    left: 0;
+    width: 737px;
+    height: 207px;
+    padding-left: 16px;
+    padding-bottom: 170px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+}
+
+.btn-send-massage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 215px;
+    height: 56px;
+    border: none;
+    background-color: rgb(240, 62, 62);
+    color: white;
+    border-radius: 5px;
+}
+
+.send-massage {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}

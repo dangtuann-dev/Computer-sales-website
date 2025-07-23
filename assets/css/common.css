@@ -23,7 +23,23 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-
+.line {
+  width: 1170px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* BUTTON */
+.btn {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fafafa;
+  padding: 16px 48px;
+  background-color: #db4444;
+}
+.btn:hover {
+  opacity: 0.8;
+}
 /* HEADER */
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);

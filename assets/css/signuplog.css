@@ -34,7 +34,11 @@ body {
 
 /* HEADER */
 header {
-  border-bottom: 1px solid gray;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  z-index: 5;
 }
 
 header .main-content {
@@ -94,7 +98,7 @@ header .main-content {
 
 .search-store {
   position: relative;
-}
+} 
 
 .icon-search {
   display: inline-block;

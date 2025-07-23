@@ -42,7 +42,11 @@ body {
 }
 /* HEADER */
 header {
+  background-color: white;
+  position: sticky;
+  top: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  z-index: 5;
 }
 header .main-content {
   display: flex;
@@ -50,9 +54,6 @@ header .main-content {
   justify-content: space-between;
   height: 56px;
   padding: 0 20px;
-}
-
-header .main-content {
   margin-top: 10px;
   margin-bottom: 10px;
   position: relative;

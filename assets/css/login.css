@@ -1,0 +1,69 @@
+.sub-login {
+    position: absolute;
+    right: 135px;
+    top: 227px;
+}
+
+.Exclusive {
+    width: 370px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.44px;
+}
+
+.Enter-details {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 24px;
+}
+
+.email-login {
+    width: 370px;
+    height: 30px;
+    margin-top: 48px;
+    border: none;
+    border-bottom: 1px solid rgb(205, 201, 201);
+}
+
+.pass-login {
+    display: block;
+    width: 370px;
+    height: 30px;
+    margin-top: 48px;
+    border: none;
+    border-bottom: 1px solid rgb(205, 201, 201);
+}
+
+.btn-login {
+    width: 143px;
+    height: 56px;
+    margin-top: 40px;
+    background-color: rgb(240, 62, 62);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-lg {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 47px;
+    height: 24px;
+}
+
+.forget-pass {
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+    color: rgb(240, 62, 62);;
+    text-decoration: none;
+}

@@ -25,19 +25,47 @@
 
 .email-login {
     width: 370px;
-    height: 30px;
-    margin-top: 48px;
+    height: 24px;
     border: none;
-    border-bottom: 1px solid rgb(205, 201, 201);
+    outline: none;
+    margin-top: 48px;
+}
+
+.div-email-login::after {
+    display: block;
+    content: "";
+    width: 370px;
+    height: 1px;
+    background-color: rgb(205, 201, 201);
+}
+
+.email-login:focus,
+.email-login:active {
+  outline: none;
+  border: none;
 }
 
 .pass-login {
     display: block;
-    width: 370px;
-    height: 30px;
-    margin-top: 48px;
+   width: 370px;
+    height: 24px;
     border: none;
-    border-bottom: 1px solid rgb(205, 201, 201);
+    outline: none;
+    margin-top: 48px;
+}
+
+.div-pass-login::after {
+    display: block;
+    content: "";
+    width: 370px;
+    height: 1px;
+    background-color: rgb(205, 201, 201);
+}
+
+.pass-login:focus,
+.pass-login:active {
+  outline: none;
+  border: none;
 }
 
 .btn-login {
@@ -47,7 +75,7 @@
     background-color: rgb(240, 62, 62);
     border: none;
     border-radius: 5px;
-}
+} 
 
 .btn-lg {
     display: inline-block;

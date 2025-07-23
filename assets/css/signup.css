@@ -1,7 +1,7 @@
 .sub-signup {
     position: absolute;
     right: 135px;
-    top: 167px; 
+    top: 150px; 
 }
 
 .creat-acc {
@@ -28,8 +28,22 @@
     width: 370px;
     height: 24px;
     border: none;
-    border-bottom: 1px solid rgb(205, 201, 201);
+    outline: none;
     margin-top: 48px;
+}
+
+.name-sig::after {
+    display: block;
+    content: "";
+    width: 370px;
+    height: 1px;
+    background-color: rgb(205, 201, 201);
+}
+
+.name-signup:focus,
+.name-signup:active {
+  outline: none;
+  border: none;
 }
 
 .email-phone {
@@ -37,16 +51,44 @@
     width: 370px;
     height: 24px;
     border: none;
-    border-bottom: 1px solid rgb(205, 201, 201);
+    outline: none;
     margin-top: 48px;
+}
+
+.email-sign::after {
+    display: block;
+    content: "";
+    width: 370px;
+    height: 1px;
+    background-color: rgb(205, 201, 201);
+}
+
+.email-phone:focus,
+.email-phone:active {
+  outline: none;
+  border: none;
 }
 
 .pass-signup {
     width: 370px;
     height: 24px;
     border: none;
-    border-bottom: 1px solid rgb(205, 201, 201);
+    outline: none;
     margin-top: 48px;
+}
+
+.sg-pass::after {
+    display: block;
+    content: "";
+    width: 370px;
+    height: 1px;
+    background-color: rgb(205, 201, 201);
+}
+
+.pass-signup:focus,
+.pass-signup:active {
+  outline: none;
+  border: none;
 }
 
 .btn-create {
@@ -92,9 +134,9 @@
     font-weight: 400;
     line-height: 24px;
     margin-left: 15px;
-}
+} 
 
-.alr-account {
+.alr-account { 
     width: 185px;
     height: 24px;
     margin-top: 32px;
@@ -110,4 +152,14 @@
     right: -65px;
     width: 47px;
     height: 24px;
+}
+
+button:focus,
+button:active {
+  outline: none;
+  border: none;
+}
+
+.go-login:hover {
+    color: blue;
 }

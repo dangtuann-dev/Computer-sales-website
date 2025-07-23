@@ -392,7 +392,7 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  background-image: url("/assets/img/ps5.svg");
+  background-image: url("../assets/img/ps5.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -449,7 +449,7 @@
   flex-direction: column;
   width: 570px;
   height: 284px;
-  background-image: url("/assets/img/product/1024_3021fb3c8fea45358051a29a5ff9a526_master.png");
+  background-image: url("../assets/img/product/1024_3021fb3c8fea45358051a29a5ff9a526_master.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -467,10 +467,10 @@
   background-position: center center;
 }
 .left-bottom-featured {
-  background-image: url("/assets/img/product/6500x_black_artboard01_aa_a5d7923738ed44758916b915f1653d6d_master.png");
+  background-image: url("../assets/img/product/6500x_black_artboard01_aa_a5d7923738ed44758916b915f1653d6d_master.png");
 }
 .right-bottom-featured {
-  background-image: url("/assets/img/code-bg.jpg");
+  background-image: url("../assets/img/code-bg.jpg");
 }
 .left-bottom-featured h3,
 .left-bottom-featured .desc,

@@ -43,7 +43,7 @@ header .main-content {
 }
 
 .list-header:not(.sub-header:first-child) {
-  left: 350px;
+  left: 310px; 
   position: absolute;
   top: 20px;
 }
@@ -56,11 +56,6 @@ header .main-content {
   text-align: center;
   display: block;
   object-fit: cover;
-}
-
-header .main-content {
-  margin-top: 15px;
-  position: relative;
 }
 
 .list-header {

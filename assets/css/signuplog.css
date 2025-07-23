@@ -118,10 +118,13 @@ header .main-content {
 }
 
 .img-login {
-  width: 100vw;
-  height: 100vh;
   overflow: hidden;
   margin-right: 129px;
+}
+
+.div-box-content {
+  position: absolute;
+  top: -25px;
 }
 
 /* FOOTER */

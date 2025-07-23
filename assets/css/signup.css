@@ -105,6 +105,10 @@
     height: 56px;
 }
 
+.btn-create:hover {
+    background-color: rgb(241, 95, 95);
+}
+
 .btn-google {
     display: block;
     margin: 0 auto;

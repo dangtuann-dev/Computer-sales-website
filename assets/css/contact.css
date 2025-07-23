@@ -230,6 +230,10 @@
     border-radius: 5px;
 }
 
+.btn-send-massage:hover {
+    background-color: rgb(241, 95, 95);
+}
+
 .send-massage {
     font-size: 16px;
     font-style: normal;

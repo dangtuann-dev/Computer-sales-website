@@ -20,14 +20,14 @@ body {
 /* Common */
 .box-content {
   width: 1440px;
-  height: 737px;
+  height: 870px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
 }
 
 .main-content {
-  width: 1170px; 
+  width: 1170px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -98,7 +98,7 @@ header .main-content {
 
 .search-store {
   position: relative;
-} 
+}
 
 .icon-search {
   display: inline-block;
@@ -111,6 +111,7 @@ header .main-content {
 .main--content.box-content {
   position: relative;
 }
+
 .box-content .main-content {
   position: absolute;
   left: 0;
@@ -124,7 +125,181 @@ header .main-content {
 
 .div-box-content {
   position: absolute;
-  top: -25px;
+  top: 25px;
 }
 
 /* FOOTER */
+
+footer .footer-box-content {
+  display: block;
+  width: 100%;
+  height: 440px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.end-project {
+  position: relative;
+  width: 1440px;
+  height: 440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-people {
+  position: absolute;
+  top: 118px;
+  left: 90px;
+}
+
+.tiltle-footer1 {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 30px;
+}
+
+.admin-1,
+.admin-2 {
+  color: #d1cdcd;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  line-height: 2;
+}
+
+.div-support {
+  position: absolute;
+  top: 118px;
+  left: 430px;
+}
+
+.support {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 30px;
+}
+
+.footer-phone {
+  width: 210px;
+  color: #d1cdcd;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  line-height: 2;
+}
+
+.footer-text {
+  margin-top: 10px;
+  padding-left: 16px;
+  width: 210px;
+  height: 48px;
+  background-color: black;
+  color: #d1cdcd;
+  border: 1px solid #d1cdcd;
+}
+
+.icon-plane {
+  position: absolute;
+  color: #d1cdcd;
+  right: 16px;
+  bottom: 14px;
+}
+
+.function-web {
+  position: absolute;
+  top: 118px;
+  left: 800px;
+}
+
+.comment-function {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 30px;
+}
+
+.home-footer,
+.contact-footer,
+.about-footer,
+.sign-footer {
+  text-decoration: none;
+  display: block;
+  width: 210px;
+  color: #d1cdcd;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  line-height: 2;
+}
+
+.function-web a:hover {
+  text-decoration: underline;
+}
+
+.university {
+  position: absolute;
+  top: 118px;
+  left: 1180px;
+}
+
+.div-university {
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 30px;
+}
+
+.name-university,
+.kh-university {
+  text-decoration: none;
+  display: block;
+  width: 210px;
+  color: #d1cdcd;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  line-height: 2;
+}
+
+.img-footer {
+  position: absolute;
+  top: 27%;
+  left: 1505px;
+}
+
+.end-footer {
+  background-color: white;
+  width: 443px;
+  height: 150px;
+}
+
+.end-project::before {
+  content: "© Nguyen Tat Thanh University - 24DKTPM1A - Nguyen Ngoc Hien - Dang Thanh Tuan";
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  color: #666;
+  left: 430px;
+}
+
+

@@ -77,6 +77,10 @@
     border-radius: 5px;
 } 
 
+.btn-login:hover {
+    background-color: rgb(241, 95, 95);
+}
+
 .btn-lg {
     display: inline-block;
     color: white;
@@ -94,4 +98,8 @@
     bottom: 22px;
     color: rgb(240, 62, 62);;
     text-decoration: none;
+}
+
+.forget-pass:hover {
+    text-decoration: underline;
 }

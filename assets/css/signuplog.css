@@ -18,8 +18,16 @@ body {
 }
 
 /* Common */
+.box-content {
+  width: 1440px;
+  height: 981px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
 .main-content {
-  width: 1170px;
+  width: 1170px; 
   margin-right: auto;
   margin-left: auto;
 }
@@ -44,11 +52,10 @@ header .main-content {
 }
 
 .list-header:not(.sub-header:first-child) {
-  left: 350px;
+  left: 310px;
   position: absolute;
   top: 20px;
 }
-
 
 .list-header .sub-header {
   width: 66px;
@@ -85,7 +92,6 @@ header .main-content {
   padding: 5px;
 }
 
-
 .search-store {
   position: relative;
 }
@@ -95,6 +101,22 @@ header .main-content {
   position: absolute;
   right: 10px;
   top: 7px;
+}
+
+/* Content */
+.main--content.box-content {
+  position: relative;
+}
+.box-content .main-content {
+  position: absolute;
+  left: 0;
+  margin-top: 60px;
+}
+
+.img-login {
+  width: 850px;
+  width: 706px;
+  margin-right: 129px;
 }
 
 /* FOOTER */

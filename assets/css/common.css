@@ -41,6 +41,10 @@ body {
 .btn:hover {
   opacity: 0.8;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
 /* HEADER */
 header {
   background-color: white;

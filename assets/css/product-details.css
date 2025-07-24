@@ -70,6 +70,9 @@
   line-height: 2.1rem;
   margin: 24px 0;
 }
+.hero .product--info {
+  min-width: 373px;
+}
 .line {
   width: 400px;
 }

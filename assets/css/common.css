@@ -109,6 +109,10 @@ header .main-content {
   margin-right: 65px;
 }
 
+.header-search:focus {
+  outline: none;
+}
+
 .search-store {
   position: relative;
 }

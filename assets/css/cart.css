@@ -1,0 +1,358 @@
+/* box Đầu Cart */
+
+.box-cart {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1170px;
+    height: 840px;
+    position: relative;
+}
+
+.div-sub-cart {
+    height: 74px;
+    box-shadow: 1px 1px 5px rgb(203, 203, 201);
+    position: relative;
+}
+
+.font-sub-cart {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+}
+
+/* Sản Phẩm */
+
+.sub-cart-1 {
+    margin-left: 35px;
+}
+
+.box-sub-cart {
+    position: absolute;
+    top: 24px;
+}
+
+.box-sub-cart p:not(:first-child) {
+    margin-left: 284px;
+}
+
+/* Thanh row 2 */
+
+.div-row-2 {
+    height: 102px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 5px rgb(203, 203, 201);
+    position: relative;
+}
+
+/* Thanh row 3 */
+
+.div-row-3 {
+    height: 102px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 5px rgb(203, 203, 201);
+    position: relative;
+}
+
+/* Chung row 2 - row 3 */
+
+.img-cart {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left: 40px;
+    top: 24px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.font-row-cart {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+}
+
+.sub-img-cart {
+    left: 114px;
+    top: 39px;
+}
+
+.sub-price {
+    left: 387px;
+    top: 39px;
+}
+
+.div-quantity {
+    width: 72px;
+    height: 44px;
+    border: 1px solid rgb(202, 202, 200);
+    position: absolute;
+    top: 29px;
+    left: 710px;
+    border-radius: 5px;
+}
+
+.box-quantity {
+    width: 48px;
+    height: 32px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+
+.sub-Quantity {
+    position: absolute;
+    width: 16px;
+    top: 4px;
+}
+
+.box-arrow button {
+    display: block;
+    border: none;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+}
+
+.box-arrow button:hover,
+.box-quantity:hover,
+.div-quantity:hover,
+.return-shop:hover,
+.deleate:hover,
+.update-cart:hover,
+.css-coupon:hover,
+.css-apply:hover,
+.procees-checkout:hover {
+    cursor: pointer;
+}
+
+.css-apply:hover,
+.procees-checkout:hover,
+.deleate:hover {
+    background-color: rgb(249, 122, 122);
+} 
+
+.img-up-down {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box-arrow {
+    position: absolute;
+    top: 6px;
+    right: 17px;
+}
+
+.sub-subtotal {
+    position: absolute;
+    left: 1071px;
+    top: 39px;
+}
+
+.deleate {
+    display: none;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(240, 62, 62);
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-solid.fa-xmark {
+    color: white;
+}
+
+.div-row-2:hover .deleate,
+.div-row-3:hover .deleate {
+    display: flex;
+}
+
+
+/* Thanh row 4 */
+
+.div-row-4 {
+    height: 56px;
+    margin-top: 24px;
+    position: relative;
+}
+
+
+.return-shop,
+.update-cart {
+    border-radius: 3px;
+    border: 1px solid rgb(173, 165, 165);
+    background-color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px
+}
+
+.return-shop {
+    width: 218px;
+    height: 56px;
+}
+
+.update-cart {
+    width: 195px;
+    height: 56px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* thanh 5 */
+/* trái */
+.div-row-5 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    height: 324px;
+    position: relative;
+}
+
+.font-coupon {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.coupon-apply {
+    width: 527px;
+    height: 324px;
+    position: relative;
+}
+
+.css-coupon {
+    width: 300px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(225, 225, 225);
+    border: 1px solid rgb(180, 177, 177);
+}
+
+.apply-coupon {
+    width: 211px;
+    height: 56px;
+    position: absolute;
+    right: 0;
+}
+
+.css-apply {
+    width: 211px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240, 62, 62);
+    color: white;
+}
+
+
+/* phải */
+.cart-total {
+    width: 470px;
+    height: 324px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.sub-total {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 100px;
+    height: 28px;
+    text-align: center;
+}
+
+.div-sub-total {
+    position: absolute;
+    top: 32px;
+    left: 24px;
+}
+
+.font-cart-total {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(180, 177, 177);
+}
+
+.sub-end-total {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+
+.box-subtotal {
+    width: 422px;
+    height: 24px;
+    position: absolute;
+    top: 84px;
+    left: 24px;
+}
+
+.end-subtotal {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box-shipping {
+    width: 422px;
+    height: 24px;
+    position: absolute;
+    top: 140px;
+    left: 24px;
+}
+
+.box-end-total {
+    width: 422px;
+    height: 24px;
+    position: absolute;
+    top: 196px;
+    left: 24px;
+}
+
+/* Pro Btn */
+
+.procees-checkout {
+    width: 260px;
+    height: 56px;
+    background-color: rgb(240, 62, 62);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    left: 89px;
+    top: 236px;
+}

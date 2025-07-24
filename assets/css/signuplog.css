@@ -90,6 +90,10 @@ header .main-content {
   padding: 5px;
 }
 
+.header-search:focus {
+  outline: none;
+}
+
 .search-store {
   position: relative;
 }

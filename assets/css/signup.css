@@ -166,5 +166,6 @@ button:active {
 }
 
 .go-login:hover {
-    color: blue;
+    color: rgb(239, 123, 123);
+    border-bottom: 1px solid rgb(239, 123, 123);
 }

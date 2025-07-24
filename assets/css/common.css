@@ -30,6 +30,7 @@ body {
 }
 /* BUTTON */
 .btn {
+  border: none;
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 500;
@@ -57,7 +58,7 @@ header .main-content {
 }
 
 .list-header:not(.sub-header:first-child) {
-  left: 310px; 
+  left: 310px;
   position: absolute;
   top: 20px;
 }
@@ -301,4 +302,3 @@ footer .footer-box-content {
   color: #666;
   left: 430px;
 }
-

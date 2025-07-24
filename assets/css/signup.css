@@ -107,6 +107,7 @@
 
 .btn-create:hover {
     background-color: rgb(241, 95, 95);
+    cursor: pointer;
 }
 
 .btn-google {

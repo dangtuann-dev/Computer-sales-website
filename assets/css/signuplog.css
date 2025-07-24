@@ -46,12 +46,6 @@ header .main-content {
   align-items: center;
   justify-content: space-between;
   height: 56px;
-  padding: 0 20px;
-}
-
-header .main-content {
-  margin-top: 10px;
-  margin-bottom: 10px;
   position: relative;
 }
 

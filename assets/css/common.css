@@ -53,9 +53,6 @@ header .main-content {
   align-items: center;
   justify-content: space-between;
   height: 56px;
-  padding: 0 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   position: relative;
 }
 
@@ -104,7 +101,7 @@ header .main-content {
   width: 200px;
   height: 30px;
   padding: 5px;
-  margin-right: 50px;
+  margin-right: 65px;
 }
 
 .search-store {
@@ -114,14 +111,14 @@ header .main-content {
 .icon-search {
   display: inline-block;
   position: absolute;
-  right: 60px;
+  right: 75px;
   top: 7px;
 }
 
 .heart {
   display: inline-block;
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 7px;
 }
 
@@ -129,6 +126,7 @@ header .main-content {
   display: inline-block;
   position: absolute;
   top: 7px;
+  right: 0;
 }
 
 /* FOOTER */

@@ -2,6 +2,8 @@
     position: absolute;
     right: -314px;
     top: 219px;
+    width: 370px;
+    height: 326px;
 }
 
 .Exclusive {
@@ -41,13 +43,13 @@
 
 .email-login:focus,
 .email-login:active {
-  outline: none;
-  border: none;
+    outline: none;
+    border: none;
 }
 
 .pass-login {
     display: block;
-   width: 370px;
+    width: 370px;
     height: 24px;
     border: none;
     outline: none;
@@ -64,18 +66,24 @@
 
 .pass-login:focus,
 .pass-login:active {
-  outline: none;
-  border: none;
+    outline: none;
+    border: none;
+}
+
+.div-btn-login {
+    background-color: rgb(240, 62, 62);
+    border-radius: 5px;
+    position: absolute;
+    width: 143px;
+    height: 56px;
+    bottom: 0;
 }
 
 .btn-login {
     width: 143px;
     height: 56px;
-    margin-top: 40px;
-    background-color: rgb(240, 62, 62);
-    border: none;
-    border-radius: 5px;
-} 
+    display: block;
+}
 
 .btn-login:hover {
     background-color: rgb(241, 95, 95);
@@ -91,12 +99,16 @@
     line-height: 24px;
     width: 47px;
     height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .forget-pass {
     position: absolute;
     right: 0;
-    bottom: 22px;
+    bottom: 18px;
     color: rgb(240, 62, 62);;
     text-decoration: none;
 }

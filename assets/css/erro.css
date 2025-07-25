@@ -8,7 +8,6 @@
     position: relative;
     top: 251px;
     left: 171px;
-
 }
 
 .b404-not-found {
@@ -34,16 +33,39 @@
     transform: translateX(-50%);
 }
 
-.go-back-home {
+.back-home {
     width: 254px;
     height: 56px;
-    border: none;
     border-radius: 3px;
     background-color: rgb(240, 62, 62);
-    color: white;
     position: absolute;
     bottom: 0;
     left: 275px;
+}
+
+.back-home:hover {
+    background-color: rgb(241, 95, 95);
+    cursor: pointer;
+}
+
+.go-back-home {
+    display: block;
+    width: 254px;
+    height: 56px;
+}
+
+.sub-back-home {
+    width: 158px;
+    height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .go-back-home:hover {

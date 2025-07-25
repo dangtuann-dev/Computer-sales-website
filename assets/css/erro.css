@@ -1,0 +1,52 @@
+.main-content.box-content {
+    height: 770px;
+}
+
+.div-box-cotent {
+    width: 829px;
+    height: 295px;
+    position: relative;
+    top: 251px;
+    left: 171px;
+
+}
+
+.b404-not-found {
+    width: 829px;
+    height: 115px;
+}
+
+.sub-404 {
+    color: #000;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115px;
+    letter-spacing: 3.3px;
+}
+
+.sub-error-2 {
+    width: 425px;
+    height: 24px;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.go-back-home {
+    width: 254px;
+    height: 56px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240, 62, 62);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 275px;
+}
+
+.go-back-home:hover {
+    background-color: rgb(241, 95, 95);
+    cursor: pointer;
+}

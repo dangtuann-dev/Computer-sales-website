@@ -113,23 +113,23 @@
         <div class="flash-sale-time">
           <div class="time-countdown">
             <div class="time-unit">
-              <p class="unit">Days</p>
-              <p class="time">03</p>
+              <p class="unit" >Days</p>
+              <p class="time"id="days">00</p>
             </div>
             <img loading="lazy" class="semiclone" src="./assets/icon/Semiclone.svg" alt="Semiclone" />
             <div class="time-unit">
-              <p class="unit">Hours</p>
-              <p class="time">23</p>
+              <p class="unit" >Hours</p>
+              <p class="time"id="hours">00</p>
             </div>
             <img loading="lazy" class="semiclone" src="./assets/icon/Semiclone.svg" alt="Semiclone" />
             <div class="time-unit">
-              <p class="unit">Minutes</p>
-              <p class="time">19</p>
+              <p class="unit" >Minutes</p>
+              <p class="time" id="minutes">00</p>
             </div>
             <img loading="lazy" class="semiclone" src="./assets/icon/Semiclone.svg" alt="Semiclone" />
             <div class="time-unit">
-              <p class="unit">Second</p>
-              <p class="time">56</p>
+              <p class="unit" >Second</p>
+              <p class="time" id="seconds">00</p>
             </div>
           </div>
         </div>
@@ -618,22 +618,22 @@
           <div class="time-countdown-list">
             <!-- Days -->
             <div class="time-unit">
-              <p class="time">05</p>
+              <p class="time" id="days2" >00</p>
               <p class="unit">Days</p>
             </div>
             <!-- Hours -->
             <div class="time-unit">
-              <p class="time">23</p>
+              <p class="time" id="hours2">00</p>
               <p class="unit">Hours</p>
             </div>
             <!-- Minutes -->
             <div class="time-unit">
-              <p class="time">59</p>
+              <p class="time" id="minutes2">00</p>
               <p class="unit">Minutes</p>
             </div>
             <!-- Seconds -->
             <div class="time-unit">
-              <p class="time">35</p>
+              <p class="time" id="seconds2">00</p>
               <p class="unit">Seconds</p>
             </div>
           </div>
@@ -1093,5 +1093,46 @@
       </div>
     </div>
   </footer>
+  <script>
+    // Thời gian đếm ngược: 3 ngày 24 giờ 30 phút 20 giây
+const countdownDuration = 
+    (1 * 24 * 60 * 60) + // 3 ngày
+    (3 * 60 * 60) +     // 24 giờ
+    (20 * 60) +          // 30 phút
+    20;                  // 20 giây
+
+// Thời điểm bắt đầu
+const startTime = Date.now();
+const endTime = startTime + countdownDuration * 1000;
+
+const countdown = setInterval(function () {
+  const now = Date.now();
+  const distance = endTime - now;
+
+  if (distance <= 0) {
+    clearInterval(countdown);
+    document.getElementById("countdown").innerHTML = "Đã hết giờ!";
+    return;
+  }
+
+  const totalSeconds = Math.floor(distance / 1000);
+
+  const days = Math.floor(totalSeconds / (60 * 60 * 24));
+  const hours = Math.floor((totalSeconds % (60 * 60 * 24)) / (60 * 60));
+  const minutes = Math.floor((totalSeconds % (60 * 60)) / 60);
+  const seconds = totalSeconds % 60;
+
+  document.getElementById("days").innerText = days.toString().padStart(2, '0');
+  document.getElementById("hours").innerText = hours.toString().padStart(2, '0');
+  document.getElementById("minutes").innerText = minutes.toString().padStart(2, '0');
+  document.getElementById("seconds").innerText = seconds.toString().padStart(2, '0');
+   document.getElementById("days2").innerText = days.toString().padStart(2, '0');
+  document.getElementById("hours2").innerText = hours.toString().padStart(2, '0');
+  document.getElementById("minutes2").innerText = minutes.toString().padStart(2, '0');
+  document.getElementById("seconds2").innerText = seconds.toString().padStart(2, '0');
+}, 1000);
+ 
+
+  </script>
 </body>
 </html>

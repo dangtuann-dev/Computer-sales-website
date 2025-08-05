@@ -58,83 +58,50 @@
 .icon-about {
     height: 230px;
     margin-bottom: 140px;
-    position: relative;
+    display: flex;
+    gap: 30px;
 }
 
 .icon-maker,
 .icon-money,
 .icon-bag,
 .icon-end {
-    width: 270px;
-    height: 230px;
-    position: relative;
-    border: 1px solid rgb(214, 213, 213);
-    display: inline-block;
-}
-
-.icon-money {
-    position: absolute;
-    left: 300px;
-}
-
-.icon-bag {
-    position: absolute;
-    right: 304px;
-}
-
-.icon-end {
-    position: absolute;
-    right: 0;
+  width: 45%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(214, 213, 213);
 }
 
 .div-icon-maker {
-    width: 80px;
-    height: 80px;
-    background-color: black;
-    position: relative;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50%;
-    border: 10px solid rgb(222, 222, 215);
-}
-
-.fa-solid.fa-store,
-.fa-solid.fa-coins,
-.fa-solid.fa-bag-shopping,
-.fa-solid.fa-sack-dollar {
-    color: white;
-    background-color: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
+  border: 10px solid rgb(222, 222, 215);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
 }
 
 .number-saller {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 1.28px;
-    position: absolute;
-    top: 134px;
-    left: 50%;
-    transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.fa-2x {
+  color: white;
+  font-size: 24px;
 }
 
 .saller-our {
-    width: 220px;
-    height: 24px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+  font-size: 14px;
+  text-align: center;
 }
 
 .icon-maker:hover,
@@ -165,7 +132,8 @@
 
 /* Img */
 .div-img-about {
-    position: relative;
+    display: flex;
+    gap: 27px;
 }
 
 .img-about-1,
@@ -175,15 +143,6 @@
     height: 564px;
     overflow: hidden;
     display: inline-block;
-}
-
-.img-about-1 {
-    margin-right: 27px;
-}
-
-.img-about-3 {
-    position: absolute;
-    right: 0;
 }
 
 .img-1-1,
@@ -294,4 +253,106 @@
 .policy {
   margin-top: 80px;
   margin-bottom: 140px;
+}
+
+/* ========== RESPONSIVE FOR TABLET AND MOBILE ========== */
+@media (max-width: 992px) {
+  .main-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .div-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .our-story {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .img-story {
+    position: static;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-story img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .icon-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .icon-maker,
+  .icon-money,
+  .icon-bag,
+  .icon-end {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .div-img-about {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 60px;
+  }
+
+  .img-about-1,
+  .img-about-2,
+  .img-about-3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .img-1-1,
+  .img-2-1,
+  .img-3-1 {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .policy--list {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .box-chua-nut {
+    margin-top: 40px;
+  }
+
+  .footer-box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .end-project > div {
+    width: 100%;
+  }
+
+  .box-chua-nut {
+    display: none;
+  }
 }

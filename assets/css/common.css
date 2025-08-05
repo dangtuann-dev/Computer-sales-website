@@ -67,12 +67,6 @@ header .main-content {
   position: relative;
 }
 
-.list-header:not(.sub-header:first-child) {
-  left: 310px;
-  position: absolute;
-  top: 20px;
-}
-
 .list-header .sub-header {
   width: 66px;
   height: 24px;
@@ -81,11 +75,6 @@ header .main-content {
   text-align: center;
   display: block;
   object-fit: cover;
-}
-
-.list-header {
-  left: 250px;
-  position: absolute;
 }
 
 .list-header li {
@@ -155,7 +144,6 @@ header .main-content {
 }
 
 .so-luong-sp {
-  /* text-align: center; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -169,27 +157,21 @@ header .main-content {
 
 /* FOOTER */
 footer .footer-box-content {
-  display: block;
   width: 100%;
   height: 440px;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 }
 
 .end-project {
-  position: relative;
-  width: 1440px;
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  gap: 87px;
+  padding-top: 80px;
+  width: 100%;
   height: 440px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.div-people {
-  position: absolute;
-  top: 118px;
-  left: 90px;
 }
 
 .tiltle-footer1 {
@@ -210,12 +192,6 @@ footer .footer-box-content {
   font-weight: 500;
   line-height: 28px;
   line-height: 2;
-}
-
-.div-support {
-  position: absolute;
-  top: 118px;
-  left: 430px;
 }
 
 .support {
@@ -249,16 +225,10 @@ footer .footer-box-content {
 }
 
 .icon-plane {
-  position: absolute;
+  position: relative;
   color: #d1cdcd;
-  right: 16px;
-  bottom: 14px;
-}
-
-.function-web {
-  position: absolute;
-  top: 118px;
-  left: 800px;
+  right: -175px;
+  bottom: 30px;
 }
 
 .comment-function {
@@ -288,12 +258,6 @@ footer .footer-box-content {
 
 .function-web a:hover {
   text-decoration: underline;
-}
-
-.university {
-  position: absolute;
-  top: 118px;
-  left: 1180px;
 }
 
 .div-university {
@@ -331,11 +295,18 @@ footer .footer-box-content {
   height: 150px;
 }
 
-.end-project::before {
+.override {
+  text-align: center;
+  position: relative;
+  top: -43px;
+}
+
+.override::before {
   content: "© Nguyen Tat Thanh University - 24DKTPM1A - Nguyen Ngoc Hien - Dang Thanh Tuan";
-  position: absolute;
-  bottom: 10px;
-  font-size: 14px;
-  color: #666;
-  left: 430px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #898787;
+  display: block;
 }

@@ -213,3 +213,29 @@
     color: rgb(239, 123, 123);
     border-bottom: 1px solid rgb(239, 123, 123);
 }
+
+@media (max-width: 1400px) {
+
+    .main-content {
+        width: 100%;
+    }
+    .box-content {
+        width: 100%;
+    }
+
+    .div-box-content {
+        position: static;
+        margin: auto;
+    }
+  .img-login {
+    display: none;
+  }
+
+  .sub-signup {
+    width: 100%;
+    position: relative ;
+    margin: auto;
+    right: 0;
+    top: 0;
+  }
+}

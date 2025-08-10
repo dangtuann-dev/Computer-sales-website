@@ -107,7 +107,7 @@
 
 .forget-pass {
     position: absolute;
-    right: 0;
+    right: -230px;
     bottom: 18px;
     color: rgb(240, 62, 62);;
     text-decoration: none;
@@ -116,4 +116,26 @@
 .forget-pass:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .main-content {
+        width: 100%;
+    }
+     .main--content {
+        width: 100%;
+    }
+
+    .div-box-content {
+        width: 100%;
+        position: static;
+    }
+  .img-login {
+    display: none;
+  }
+  .sub-login {
+    position: relative;
+    margin: auto;
+    right: 0;
+  }
 }

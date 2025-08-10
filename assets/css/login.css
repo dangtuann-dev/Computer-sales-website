@@ -118,8 +118,10 @@
     cursor: pointer;
 }
 
+/* REPONSIVE */
+
 @media (max-width: 1400px) {
-    .main-content {
+    .main-contentt {
         width: 100%;
     }
      .main--content {

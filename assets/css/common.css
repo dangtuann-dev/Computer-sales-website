@@ -1,312 +1,376 @@
 * {
-  box-sizing: border-box;
-  vertical-align: bottom;
+    box-sizing: border-box;
+    vertical-align: bottom;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 html,
 body {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: Poppins;
+    font-size: 1.6rem;
+    font-family: Poppins;
 }
 
+
 /* Common */
+
 .main-content {
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .line {
-  width: 1170px;
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.3);
+    width: 1170px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
+
 /* BUTTON */
+
 .btn {
-  border: none;
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #fafafa;
-  padding: 16px 48px;
-  background-color: #db4444;
+    border: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fafafa;
+    padding: 16px 48px;
+    background-color: #db4444;
 }
 
 .btn:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 a {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
+
 /* HEADER */
+
 header {
-  background-color: white;
-  position: sticky;
-  top: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  z-index: 5;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    z-index: 5;
 }
 
 header .main-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 56px;
-  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    position: relative;
 }
 
 .list-header .sub-header {
-  width: 66px;
-  height: 24px;
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  object-fit: cover;
+    width: 66px;
+    height: 24px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    object-fit: cover;
 }
 
 .list-header li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .list-header li:not(li:first-child) {
-  margin-left: 48px;
+    margin-left: 48px;
 }
 
 .list-header li:hover::after {
-  display: inline-block;
-  content: "";
-  width: 66px;
-  height: 1px;
-  background-color: rgb(0, 0, 0);
-  position: absolute;
-  text-align: center;
+    display: inline-block;
+    content: "";
+    width: 66px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
 }
 
 .header-search {
-  background-color: rgb(243, 234, 234);
-  border: none;
-  width: 200px;
-  height: 30px;
-  padding: 5px;
-  margin-right: 65px;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 65px;
 }
 
 .header-search:focus {
-  outline: none;
+    outline: none;
 }
 
 .search-store {
-  position: relative;
+    position: relative;
 }
 
 .icon-search {
-  display: inline-block;
-  position: absolute;
-  right: 75px;
-  top: 7px;
+    display: inline-block;
+    position: absolute;
+    right: 75px;
+    top: 7px;
 }
 
 .heart {
-  display: inline-block;
-  position: absolute;
-  right: 30px;
-  top: 7px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 7px;
 }
 
 .icon-shop {
-  display: inline-block;
-  position: absolute;
-  top: 7px;
-  right: 0;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 0;
 }
 
 .div-so-luong {
-  width: 16px;
-  height: 16px;
-  background-color: #db4444;
-  border-radius: 50%;
-  position: absolute;
-  top: -8px;
-  right: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: #db4444;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
 }
 
 .so-luong-sp {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
 }
 
+
 /* FOOTER */
+
 footer .footer-box-content {
-  width: 100%;
-  height: 440px;
-  background-color: black;
-  margin-left: auto;
-  margin-right: auto;
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .end-project {
-  display: flex;
-  align-items: self-start;
-  justify-content: center;
-  gap: 87px;
-  padding-top: 80px;
-  width: 100%;
-  height: 440px;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    gap: 87px;
+    padding-top: 80px;
+    width: 100%;
+    height: 440px;
 }
 
 .tiltle-footer1 {
-  color: white;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.72px;
-  margin-bottom: 30px;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
 }
 
 .admin-1,
 .admin-2 {
-  color: #d1cdcd;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  line-height: 2;
+    color: #d1cdcd;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    line-height: 2;
 }
 
 .support {
-  color: white;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.72px;
-  margin-bottom: 30px;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
 }
 
 .footer-phone {
-  width: 210px;
-  color: #d1cdcd;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  line-height: 2;
+    width: 210px;
+    color: #d1cdcd;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    line-height: 2;
 }
 
 .footer-text {
-  margin-top: 10px;
-  padding-left: 16px;
-  width: 210px;
-  height: 48px;
-  background-color: black;
-  color: #d1cdcd;
-  border: 1px solid #d1cdcd;
+    margin-top: 10px;
+    padding-left: 16px;
+    width: 210px;
+    height: 48px;
+    background-color: black;
+    color: #d1cdcd;
+    border: 1px solid #d1cdcd;
 }
 
 .icon-plane {
-  position: relative;
-  color: #d1cdcd;
-  right: -175px;
-  bottom: 30px;
+    position: relative;
+    color: #d1cdcd;
+    right: -175px;
+    bottom: 30px;
 }
 
 .comment-function {
-  color: white;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.72px;
-  margin-bottom: 30px;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
 }
 
 .home-footer,
 .contact-footer,
 .about-footer,
 .sign-footer {
-  text-decoration: none;
-  display: block;
-  width: 210px;
-  color: #d1cdcd;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  line-height: 2;
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    color: #d1cdcd;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    line-height: 2;
 }
 
 .function-web a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .div-university {
-  color: white;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.72px;
-  margin-bottom: 30px;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
 }
 
 .name-university,
 .kh-university {
-  text-decoration: none;
-  display: block;
-  width: 210px;
-  color: #d1cdcd;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  line-height: 2;
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    color: #d1cdcd;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    line-height: 2;
 }
 
 .img-footer {
-  position: absolute;
-  top: 27%;
-  left: 1505px;
+    position: absolute;
+    top: 27%;
+    left: 1505px;
 }
 
 .end-footer {
-  background-color: white;
-  width: 443px;
-  height: 150px;
+    background-color: white;
+    width: 443px;
+    height: 150px;
 }
 
 .override {
-  text-align: center;
-  position: relative;
-  top: -43px;
+    text-align: center;
+    position: relative;
+    top: -43px;
 }
 
 .override::before {
-  content: "© Nguyen Tat Thanh University - 24DKTPM1A - Nguyen Ngoc Hien - Dang Thanh Tuan";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  color: #898787;
-  display: block;
+    content: "© Nguyen Tat Thanh University - 24DKTPM1A - Nguyen Ngoc Hien - Dang Thanh Tuan";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #898787;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .main-content {
+        width: 100%;
+        padding: 0 10px;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+    header .main-content {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 8px 0;
+    }
+    .list-header {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .list-header li {
+        display: block;
+        margin: 8px 0 0 0;
+    }
+    .list-header li:not(li:first-child) {
+        margin-left: 0;
+    }
+    .header-search {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .search-store {
+        display: none;
+    }
+    /* Footer */
+    .div-people,
+    .div-support,
+    .function-web,
+    .university {
+        display: none;
+    }
+    .override {
+        display: inline-block;
+        margin-bottom: 200x;
+    }
+    .end-project {
+        height: 50px;
+        background-color: #fff;
+    }
+    .footer-box-content {
+        background-color: #fff;
+        height: 50px;
+    }
 }

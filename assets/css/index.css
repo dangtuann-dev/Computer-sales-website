@@ -681,8 +681,15 @@
         width: 180px;
     }
     /* sidebar & main content */
-    .background--cta {
+    .sidebar {
         display: none;
+    }
+    .background--list img {
+        width: 100vw;
+        height: auto;
+    }
+    .background--slide {
+        margin-bottom: -200px;
     }
     /* categories */
     .categories-list {
@@ -716,6 +723,7 @@
     .top-right-featured,
     .left-bottom-featured,
     .right-bottom-featured {
+        padding-top: 20px;
         width: 100%;
         height: auto;
     }

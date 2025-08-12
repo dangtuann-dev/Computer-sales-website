@@ -176,22 +176,60 @@
         display: none;
     }
     /* Footer */
-    .div-people,
-    .div-support,
-    .function-web,
-    .university {
-        display: none;
-    }
-    .override {
-        display: inline-block;
-        margin-bottom: 200x;
-    }
+    /* Footer */
     .end-project {
-        height: 50px;
-        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        background-color: #000;
     }
     .footer-box-content {
-        background-color: #fff;
-        height: 50px;
+        width: 100%;
+        background-color: #000;
+        /* Reinforce black background */
+        padding: 150px 10px;
+        /* Add padding for content */
+        min-height: 150vh;
+        /* Use min-height instead of fixed height */
+    }
+    .end-project {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+        /* Reduce padding for mobile */
+        gap: 40px;
+        /* Reduce gap for mobile */
+    }
+    footer .footer-box-content,
+    .end-project,
+    .tiltle-footer1,
+    .admin-1,
+    .admin-2,
+    .support,
+    .footer-phone,
+    .footer-text,
+    .icon-plane,
+    .comment-function,
+    .home-footer,
+    .contact-footer,
+    .about-footer,
+    .sign-footer,
+    .function-web a:hover,
+    .div-university,
+    .name-university,
+    .kh-university,
+    .img-footer,
+    .end-footer,
+    .override,
+    .override::before,
+    footer {
+        background-color: #000;
+        padding-left: 10px;
+    }
+    .icon-plane {
+        width: 16px;
+        height: 16px;
+        object-fit: cover;
     }
 }

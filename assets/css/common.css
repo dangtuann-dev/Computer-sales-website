@@ -91,14 +91,9 @@ header .main-content {
     margin-left: 48px;
 }
 
-.list-header li:hover::after {
-    display: inline-block;
-    content: "";
-    width: 66px;
-    height: 1px;
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    text-align: center;
+.list-header li a:hover {
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
 .header-search {
@@ -180,6 +175,7 @@ footer .footer-box-content {
     padding-top: 80px;
     width: 100%;
     height: 100vh;
+    padding-bottom: -100px;
 }
 
 .tiltle-footer1 {
@@ -306,7 +302,7 @@ footer .footer-box-content {
 .override {
     text-align: center;
     position: relative;
-    top: -43px;
+    top: -430px;
 }
 
 .override::before {
@@ -314,7 +310,6 @@ footer .footer-box-content {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
     color: #898787;
     display: block;
 }
@@ -365,19 +360,14 @@ footer .footer-box-content {
     .footer-box-content {
         width: 100%;
         background-color: #000;
-        /* Reinforce black background */
         padding: 150px 10px;
-        /* Add padding for content */
         min-height: 150vh;
-        /* Use min-height instead of fixed height */
     }
     .end-project {
         flex-direction: column;
         align-items: flex-start;
         padding-top: 40px;
-        /* Reduce padding for mobile */
         gap: 40px;
-        /* Reduce gap for mobile */
     }
     footer .footer-box-content,
     .end-project,

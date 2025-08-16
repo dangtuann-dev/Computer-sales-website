@@ -314,7 +314,7 @@ footer .footer-box-content {
     display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
     /* Header */
     .main-content {
         width: 100%;
@@ -329,11 +329,12 @@ footer .footer-box-content {
         padding: 8px 0;
     }
     .list-header {
-        width: 100%;
+        width: 65%;
         text-align: center;
         padding: 0;
         display: flex;
         justify-content: space-between;
+        gap: 7%;
     }
     .list-header li {
         display: block;
@@ -344,12 +345,24 @@ footer .footer-box-content {
     }
     .header-search {
         width: 100%;
-        margin: 10px 0 0 0;
+        /* margin: 0; */
+    }
+    .icon-search {
+        right: 10px;
+    }
+    .heart {
+        right: -25px;
+    }
+    .icon-shop {
+        right: -57px;
     }
     .search-store {
-        display: none;
+        /* display: none; */
     }
     /* Footer */
+    .override {
+        top: 110px;
+    }
     .end-project {
         display: flex;
         flex-direction: column;

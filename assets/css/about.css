@@ -1,18 +1,18 @@
         .main-content.box-content {
             position: relative;
         }
-        
+
         .main-content {
             width: 1170px;
             margin: 0 auto;
         }
-        
+
         .div-box-content {
             height: 609px;
             position: relative;
             margin-top: 80px;
         }
-        
+
         .our-story {
             position: absolute;
             top: 137px;
@@ -20,7 +20,7 @@
             width: 525px;
             height: 336px;
         }
-        
+
         .p-out-story {
             font-size: 54px;
             font-style: normal;
@@ -28,7 +28,7 @@
             line-height: 64px;
             letter-spacing: 3.24px;
         }
-        
+
         .p-sub-story1,
         .p-sub-story2 {
             font-size: 16px;
@@ -36,32 +36,32 @@
             font-weight: 400;
             line-height: 26px;
         }
-        
+
         .p-sub-story1 {
             margin-top: 40px;
         }
-        
+
         .p-sub-story2 {
             margin-top: 24px;
         }
-        
+
         .img-story {
             position: absolute;
             right: -135px;
         }
-        
+
         .div-about-center {
             position: relative;
             margin-top: 140px;
         }
-        
+
         .icon-about {
             height: 230px;
             margin-bottom: 140px;
             display: flex;
             gap: 30px;
         }
-        
+
         .icon-maker,
         .icon-money,
         .icon-bag,
@@ -75,7 +75,7 @@
             justify-content: center;
             border: 1px solid rgb(214, 213, 213);
         }
-        
+
         .div-icon-maker {
             width: 80px;
             height: 80px;
@@ -87,23 +87,23 @@
             justify-content: center;
             margin-bottom: 16px;
         }
-        
+
         .number-saller {
             font-size: 24px;
             font-weight: 700;
             margin-bottom: 8px;
         }
-        
+
         .fa-2x {
             color: white;
             font-size: 24px;
         }
-        
+
         .saller-our {
             font-size: 14px;
             text-align: center;
         }
-        
+
         .icon-maker:hover,
         .icon-money:hover,
         .icon-bag:hover,
@@ -112,7 +112,7 @@
             color: white;
             cursor: pointer;
         }
-        
+
         .icon-maker:hover .div-icon-maker,
         .icon-money:hover .div-icon-maker,
         .icon-bag:hover .div-icon-maker,
@@ -121,7 +121,7 @@
             color: black;
             border: 10px solid rgb(239, 159, 145);
         }
-        
+
         .icon-maker:hover .fa-solid.fa-store,
         .icon-money:hover .fa-solid.fa-coins,
         .icon-bag:hover .fa-solid.fa-bag-shopping,
@@ -129,13 +129,14 @@
             background-color: white;
             color: black;
         }
+
         /* Img */
-        
+
         .div-img-about {
             display: flex;
             gap: 27px;
         }
-        
+
         .img-about-1,
         .img-about-2,
         .img-about-3 {
@@ -144,14 +145,14 @@
             overflow: hidden;
             display: inline-block;
         }
-        
+
         .img-1-1,
         .img-2-1,
         .img-3-1 {
             width: 326px;
             height: 392px;
         }
-        
+
         .img-1-1,
         .img-2-1,
         .img-3-1 {
@@ -159,7 +160,7 @@
             height: 430px;
             object-fit: cover;
         }
-        
+
         .name-img-about {
             font-size: 32px;
             font-style: normal;
@@ -168,7 +169,7 @@
             letter-spacing: 1.28px;
             margin-top: 32px;
         }
-        
+
         .sub-name-people {
             font-size: 16px;
             font-style: normal;
@@ -176,8 +177,9 @@
             line-height: 24px;
             margin-top: 8px;
         }
+
         /* Nút */
-        
+
         .box-chua-nut {
             width: 112px;
             height: 16px;
@@ -187,7 +189,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
+
         .nut-1,
         .nut-2,
         .nut-3,
@@ -198,14 +200,15 @@
             background-color: rgb(190, 192, 193);
             border-radius: 50%;
         }
-        
+
         .nut-3 {
             border: 1px solid white;
             background-color: red;
             outline: 2px solid rgb(190, 192, 193);
         }
+
         /* policy */
-        
+
         .policy-icon {
             width: 80px;
             height: 80px;
@@ -216,14 +219,14 @@
             align-items: center;
             justify-content: center;
         }
-        
+
         .policy--item {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
-        
+
         .policy-inner {
             width: 60px;
             height: 60px;
@@ -234,62 +237,73 @@
             align-items: center;
             justify-content: center;
         }
-        
+
         .policy-inner img {
             width: 40px;
             height: 40px;
             display: block;
         }
-        
+
         .policy--list {
             display: flex;
             gap: 88px;
             justify-content: center;
         }
-        
+
         .policy--list h3 {
             font-size: 2rem;
             font-weight: 600;
             margin: 24px 0 8px;
         }
-        
+
         .policy--list .desc {
             font-size: 1.4rem;
             font-weight: 400;
         }
-        
+
         .policy {
             margin-top: 80px;
             margin-bottom: 140px;
         }
+
         /* ========== RESPONSIVE FOR TABLET AND MOBILE ========== */
-        
+
         @media (max-width: 1170px) {
+
+            .main-content {
+                width: 100%;
+            }
+
             .main-contentt {
                 width: 100%;
                 padding: 0 20px;
             }
+
             .div-box-content {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 height: auto;
             }
+
             .our-story {
                 position: static;
                 width: 100%;
                 height: auto;
             }
+
             .img-story {
                 position: static;
                 margin-top: 40px;
                 width: 100%;
                 text-align: center;
             }
+
             .img-story img {
                 max-width: 100%;
                 height: auto;
             }
+
             .icon-about {
                 display: flex;
                 flex-wrap: wrap;
@@ -298,6 +312,7 @@
                 height: auto;
                 margin-bottom: 60px;
             }
+
             .icon-maker,
             .icon-money,
             .icon-bag,
@@ -310,12 +325,14 @@
                 height: auto;
                 padding: 20px;
             }
+
             .div-img-about {
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
                 margin-top: 60px;
             }
+
             .img-about-1,
             .img-about-2,
             .img-about-3 {
@@ -323,130 +340,37 @@
                 height: auto;
                 text-align: center;
             }
+
             .img-1-1,
             .img-2-1,
             .img-3-1 {
                 height: auto;
                 max-width: 100%;
             }
+
             .policy--list {
                 flex-direction: column;
                 align-items: center;
                 gap: 40px;
             }
+
             .box-chua-nut {
                 margin-top: 40px;
             }
+
             .footer-box-content {
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
                 padding: 20px;
             }
+
             .end-project>div {
                 width: 100%;
             }
+
             .box-chua-nut {
                 display: none;
             }
-            /* Header */
-            .main-content {
-                width: 100%;
-                padding: 0 10px;
-                min-width: 0;
-                box-sizing: border-box;
-            }
-            header .main-content {
-                flex-direction: column;
-                height: auto;
-                gap: 10px;
-                padding: 8px 0;
-            }
-            .list-header {
-                width: 65%;
-                text-align: center;
-                padding: 0;
-                display: flex;
-                /* justify-content: flex-start; */
-                /* gap: 7%; */
-            }
-            .list-header li {
-                display: block;
-                margin: 8px 0 0 0;
-            }
-            .list-header li:not(li:first-child) {
-                margin-left: 0;
-            }
-            .header-search {
-                width: 100%;
-                /* margin: 0; */
-            }
-            .icon-search {
-                right: 10px;
-            }
-            .heart {
-                right: -25px;
-            }
-            .icon-shop {
-                right: -57px;
-            }
-            .search-store {
-                /* display: none; */
-            }
-            /* Footer */
-            .end-project {
-                display: flex;
-                flex-direction: column;
-            }
-            footer {
-                background-color: #000;
-            }
-            .footer-box-content {
-                width: 100%;
-                background-color: #000;
-                /* Reinforce black background */
-                padding: 150px 10px;
-                /* Add padding for content */
-                min-height: 150vh;
-                /* Use min-height instead of fixed height */
-            }
-            .end-project {
-                flex-direction: column;
-                align-items: flex-start;
-                padding-top: 40px;
-                /* Reduce padding for mobile */
-                gap: 40px;
-                /* Reduce gap for mobile */
-            }
-            footer .footer-box-content,
-            .end-project,
-            .tiltle-footer1,
-            .admin-1,
-            .admin-2,
-            .support,
-            .footer-phone,
-            .footer-text,
-            .icon-plane,
-            .comment-function,
-            .home-footer,
-            .contact-footer,
-            .about-footer,
-            .sign-footer,
-            .function-web a:hover,
-            .div-university,
-            .name-university,
-            .kh-university,
-            .img-footer,
-            .end-footer,
-            .override,
-            .override::before,
-            footer {
-                background-color: #000;
-                padding-left: 10px;
-            }
-            .icon-plane {
-                width: 16px;
-                height: 16px;
-                object-fit: cover;
-            }
+
         }
